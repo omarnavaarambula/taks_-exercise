@@ -14,7 +14,7 @@ response.status(200).json({
     }],
     verb: request.method
 })
-})
+});
 //--------------------------------------------------------------
 app.post('/hobbies', (request, response) => {
     response.status(200).json({
@@ -25,7 +25,7 @@ app.post('/hobbies', (request, response) => {
         }],
         verb: request.method
     })
-})
+});
 //-----------------
 
 app.patch('/metas', (request, response) => {
@@ -36,7 +36,7 @@ app.patch('/metas', (request, response) => {
         }],
         verb: request.method
     })
-})
+});
 //--------------------------------------------------------------
 app.put('/bussiness', (request, response) => {
     response.status(200).json({
@@ -47,9 +47,9 @@ app.put('/bussiness', (request, response) => {
         }],
         verb: request.method
     })
-})
+});
 
 //--------------------------------------------------------------
 app.listen(8000, () => {
     console.log('Server started at port 8000')
-})
+});
