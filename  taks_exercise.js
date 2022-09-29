@@ -16,7 +16,7 @@ response.status(200).json({
 })
 });
 //--------------------------------------------------------------
-app.post('/hobbies', (request, response) => {
+app.post('/metas', (request, response) => {
     response.status(200).json({
         message: [{
             hobbi_one:'studing SQL and node Express',
@@ -38,7 +38,7 @@ app.patch('/metas', (request, response) => {
     })
 });
 //--------------------------------------------------------------
-app.put('/bussiness', (request, response) => {
+app.put('/business', (request, response) => {
     response.status(200).json({
         message: [{
             business_one:'academlo',
